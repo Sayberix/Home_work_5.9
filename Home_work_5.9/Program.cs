@@ -9,9 +9,9 @@ namespace Home_work_5._9
             // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
             // m = 2, n = 3 -> A(m, n) = 29
 
-            int m = 0; //Convert.ToInt32(Console.ReadLine());
-            int n = 5; //Convert.ToInt32(Console.ReadLine());
-            //int calcAnkerman = m, coefAnkerman = n + 3;
+            int m = 2; //Convert.ToInt32(Console.ReadLine());
+            int n = 3; //Convert.ToInt32(Console.ReadLine());
+
             if (m >= 0 && n >= 0)
                 Console.WriteLine(calcAnkerman(n, m));
             else
