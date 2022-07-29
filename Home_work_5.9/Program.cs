@@ -16,7 +16,7 @@ namespace Home_work_5._9
                 Console.WriteLine(calcAnkerman(n, m));
             else
             {
-                Console.WriteLine("Для фукнции Анкермана вводимые числа должны быть >= 0!");
+                Console.WriteLine("Для фукнции Анкермана вводимые числа должны быть >= 0! Программа завершает работу!");
                 return;
             }
 
